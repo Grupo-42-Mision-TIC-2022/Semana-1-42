@@ -7,13 +7,13 @@ body{
 
 
 .miembros{
-    background-color: rgba(23, 47, 126, 0.973);
+    background-color: #cfac11;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
 }
 
-.miembros_contenedor{
+.miembros__contenedor{
     font-family: unset;
     font-style: italic;
     flex-basis: 300px;
@@ -22,7 +22,7 @@ body{
     border: rgba(228, 239, 240, 0.664) 1px solid;
 
 }
-.imagen_miembros{
+.imagen__miembros{
     width:250px;
     height:300px;
     border-radius:20px;
