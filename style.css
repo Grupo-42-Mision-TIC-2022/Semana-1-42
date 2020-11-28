@@ -5,27 +5,31 @@ body{
     margin-left: auto;
 }
 
+h2   {color: rgb(10, 46, 19);}
 
 .miembros{
-    background-color: #cfac11;
+    margin-block-start: 50px;
+    background-image:url("fondo.jpg");
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    
 }
 
 .miembros__contenedor{
+    margin-top: 40px;
     font-family: unset;
     font-style: italic;
     flex-basis: 300px;
     margin-right: auto;
     margin-left: auto;
-    border: rgba(228, 239, 240, 0.664) 1px solid;
+    margin-block-end: 40px;
 
 }
 .imagen__miembros{
     width:250px;
     height:300px;
-    border-radius:20px;
+    border-radius:30px;
     border:10px solid #666;
     border-style: unset ;
     filter: grayscale(100%);
@@ -33,4 +37,5 @@ body{
     overflow: hidden;
     
 }
+
 /*;/
