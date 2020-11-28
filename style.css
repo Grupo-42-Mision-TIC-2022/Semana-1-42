@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.miembros{
+    background-color: rgba(23, 47, 126, 0.973);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.miembros_contenedor{
+    font-family: unset;
+    font-style: italic;
+    flex-basis: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    border: rgba(228, 239, 240, 0.664) 1px solid;
+
+}
+.imagen_miembros{
+    width:250px;
+    height:300px;
+    border-radius:20px;
+    border:10px solid #666;
+    border-style: unset ;
+    filter: grayscale(100%);
+    justify-content: space-evenly;
+    overflow: hidden;
+    
+}
+/*;/
