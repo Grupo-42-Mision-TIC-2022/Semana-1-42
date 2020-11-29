@@ -1,0 +1,17 @@
+body {
+	font-family: sans-serif;
+	width: 1200px;
+}
+
+.servicios {
+	background-color: violet;
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 18pt;
+	font-weight: bold;
+	text-align: center;
+} 
+
+.servicios__contenedor {
+
+}
